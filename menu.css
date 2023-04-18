@@ -1,0 +1,45 @@
+body {
+    background-color: orchid
+}
+
+h3 {
+    font-family: DoHyeon;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: black
+        
+    padding: 5px;
+    background-color:darkorchid
+    border-radius: 5px;
+}
+
+ul {
+   list-style: none ;
+    padding: 0px;
+}
+
+a {
+  font-family: verdana;
+  font-size: 12px;
+  font-weight: bold;     
+  text-align: right;
+  color: white;
+    
+  width: 140px;
+  padding: 9px; 
+  margin-bottom: 5px ;
+  border-radius:15px 0 0 15px; 
+  background-color: darkred;
+    
+  display: block;
+  text-decoration: none ;
+ }
+
+a:hover {
+  background-color: lightcoral;
+  background-image: url(right.png); 
+  background-repeat: no-repeat;
+  background-position: 6px 6px;
+}
+

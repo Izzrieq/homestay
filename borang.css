@@ -1,0 +1,154 @@
+
+body {
+    background-image: url(wallpaper3.png);
+}
+
+h3 {
+    font-family: verdana;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color:white;
+    
+    padding:5px 22px;
+    border-radius: 10px 10px 0 0;
+    margin: 20px auto 0px;
+    background-color:darkorchid;
+}
+
+h3.tajuk {
+    margin-top: 30px;
+    font-size: 24px;
+    border-radius: 0px;
+    padding:15px;
+}
+
+form {
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+    color: black;
+    
+    padding: 20px;
+    border:2px solid darkorchid;
+    border-radius:0px 0px 10px 10px;
+    margin:0px auto;
+    background-color:lightpink;
+}
+
+form.login, h3.login {
+    width:250px; 
+}
+
+form.signup, h3.signup {
+    width:250px; 
+}
+
+form.sewaan, h3.sewaan {
+    width:300px; 
+}
+
+
+	
+form.klien, h3.klien {
+    width:300px;
+}
+
+form.import, h3.import {
+    width:350px;
+}
+
+form.homestay, h3.homestay {
+    width:330px;
+}
+
+input[type="text"].readonly {
+    background-color: lightgray;
+    color : gray;
+}
+
+/* cantumkan sekali */
+input[type="text"], 
+input[type="password"], 
+input[type="date"], select {
+    padding:5px; 
+    margin: 5px;
+}
+
+input[type="submit"] {
+    width: 80px;
+    margin: 5px;
+    padding: 5px;
+}
+
+table {
+    font-family: verdana;
+    font-size: 12px;
+}
+
+button {
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 11px;
+    text-align: center;
+    color: darkolivegreen;
+    
+    width: 90px;
+    padding : 7px 8px 7px 32px;
+    border: 1px solid darkolivegreen;
+    border-radius: 7px;
+    margin-top: 10px;
+    background-position: 8px;
+    background-repeat: no-repeat;
+}
+
+
+
+button:hover {
+     background-color:darkgray;
+}
+
+button.update {
+    background-image: url(update.png);
+}
+
+button.login {
+    background-image: url(signin.png);
+}
+
+button.signup {
+    background-image: url(signup.png);
+}
+
+button.save {
+    background-image: url(save.png);
+}
+
+button.tempah {
+    background-image: url(house.png);
+}
+
+button.import {
+    background-image: url(import.png);
+}
+
+button.add {
+    background-image: url(save.png);
+}	
+button.merah {
+    background-image: url(red.png);
+}
+
+button.biru {
+    background-image: url(blue.png);
+}
+
+button.hijau {
+    background-image: url(green.png);
+}
+
+button.hitam {
+    background-image: url(black.png);
+}
+

@@ -1,0 +1,24 @@
+<html>
+<link rel="stylesheet" href="borang.css">
+<body>
+<h3 class="import">IMPORT DATA</h3>
+<form action="import.php" method="post" enctype = "multipart/form-data" class="import">
+    <table>
+       <tr>
+        <td>Jadual</td>
+        <td>
+        <select name="nametable">
+            <option>homestay</option>
+            <option>klien</option>
+        </select>
+        </td>
+      </tr>
+      <tr>
+         <td>Nama fail</td>
+          <td><input type="file" name="namafail" accept=".csv,.txt"></td>
+      </tr>
+    </table>
+    <button class="import" type="submit">Import</button>
+</form>
+</body>
+</html>
